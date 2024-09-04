@@ -55,11 +55,9 @@ sudo chown -R potato_api:potato_api /var/www/potato_api
 You can test the application by running:
 
 ```bash
-deactivate
-cd
-/var/www/potato_api/venv/bin/uvicorn app:app --reload
+uvicorn main:app --reload
 ```
-
+Replace `main` with the starting point of your api. If App works without any issues, move to Step 7.
 ## 7. Create a Systemd Service
 
 Create a systemd service file to manage the API:
