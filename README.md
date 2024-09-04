@@ -12,16 +12,7 @@ sudo adduser --system --group --home /var/www/potato_api potato_api
 
 This command creates a system user named `potato_api` with a home directory at `/var/www/potato_api`.
 
-## 2. Set Up the Project Environment
-
-Navigate to the project directory and set up a virtual environment:
-
-```bash
-cd /var/www/potato_api
-python -m venv venv
-```
-
-## 3. Clone the Repository
+## 2. Clone the Repository
 
 Clone your project repository into the current directory:
 
@@ -30,6 +21,15 @@ git clone your_repository_url .
 ```
 
 Replace `your_repository_url` with the actual URL of your Git repository.
+
+## 3. Set Up the Project Environment
+
+Navigate to the project directory and set up a virtual environment:
+
+```bash
+cd /var/www/potato_api
+python -m venv venv
+```
 
 ## 4. Install Dependencies
 
