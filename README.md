@@ -70,7 +70,7 @@ Add the following content to the file:
 
 ```ini
 [Unit]
-Description=Domain Info API Powered by FastAPI
+Description=Potato API Powered by FastAPI
 After=network.target
 
 [Service]
