@@ -1,6 +1,13 @@
 # Setting up a FastAPI Application with UVICORN and Nginx Reverse Proxy
 
 This guide will walk you through the process of setting up a FastAPI application and configuring Nginx as a reverse proxy.
+## 0. Update Ubuntu
+
+Create a dedicated system user for the API:
+
+```bash
+sudo apt get-update & sudo apt get-upgrade -y
+```
 
 ## 1. Create a System User
 
