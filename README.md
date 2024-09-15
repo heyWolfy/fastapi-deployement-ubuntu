@@ -6,7 +6,7 @@ This guide will walk you through the process of setting up a FastAPI application
 Create a dedicated system user for the API:
 
 ```bash
-sudo apt get-update & sudo apt get-upgrade -y
+sudo apt update & sudo apt upgrade -y
 ```
 
 ## 1. Create a System User
